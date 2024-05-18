@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1" />
+<title>CRUD Servlet</title>
+</head>
+<body>
+	<h1>Enter details to save in database</h1>
+	<form action="SaveCar" method="post">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="owner" /></td>
+			</tr>
+			<tr>
+				<td>Slot for parking</td>
+				<td><select name="slot" style="width: 150px">
+						<option>A</option>
+						<option>B</option>
+						<option>C</option>
+						<option>D</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Save" /></td>
+			</tr>
+		</table>
+	</form>
+	<br />
+	<a href="ViewCar">view employees</a>
+</body>
+</html>
